@@ -121,7 +121,7 @@ public class Algebra {
 			while (times(count, count) <= x){
 			count ++;
 			}
-		return minus (count, 1;
+		return minus (count, 1);
 		}
 	}	  	  
 }
