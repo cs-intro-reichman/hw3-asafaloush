@@ -93,7 +93,7 @@ public class Algebra {
 		if (x2 < 0) {
 			x2 = times(x2, -1);
 		}
-		
+
 		int counter = 0;
 		while(x1 >= x2){
 			x1 = minus(x1, x2);
@@ -121,7 +121,7 @@ public class Algebra {
 			while (times(count, count) <= x){
 			count ++;
 			}
-		return count - 1;
+		return count --;
 		}
 	}	  	  
 }
